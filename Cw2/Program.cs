@@ -69,27 +69,6 @@ namespace Cw2
             {
                 Console.WriteLine(item);
             }
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             //var parsedDate = DateTime.Parse("2020-03-09");
             //var today = DateTime.Today;
             //Console.WriteLine(parsedDate);
@@ -97,14 +76,5 @@ namespace Cw2
 
         }
 
-        public static void Wypisz(int ii, string [] arr)
-        {
-            Console.Write("Linia: "+ii);
-            for (int i = 0; i < arr.Length; i++)
-            {
-                Console.Write(arr[i] + " ");
-            }
-            Console.WriteLine();
-        }
     }
 }
