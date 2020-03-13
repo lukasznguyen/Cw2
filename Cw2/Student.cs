@@ -6,17 +6,28 @@ namespace Cw2
 {
     public class Student
     {
-        public string imie { get; set; }
-        public string nazwisko { get; set; }
-        public string kierunek { get; set; }
-        public string tryb { get; set; }
-        public int index { get; set; }
-        public string dataur { get; set; }
+        public string fName { get; set; }
+        public string lName { get; set; }
+        public string studName { get; set; }
+        public string stuMode { get; set; }
+        public string index { get; set; }
+        public string dateBirth { get; set; }
         public string email { get; set; }
-        public string mama { get; set; }
-        public string tata { get; set; }
-
-
+        public string mom { get; set; }
+        public string dad { get; set; }
+        
+        public override string ToString()
+        {
+            return "FirstName: "+fName+
+                " LastName: "+lName+
+                " StudiesName: "+studName+
+                " StudiesMode: "+stuMode+
+                " Index: "+index+
+                " DateBirth: "+dateBirth+
+                " Email: "+email+
+                " Mother: "+mom+
+                " Father: "+dad;
+        }
 
     }
 }
